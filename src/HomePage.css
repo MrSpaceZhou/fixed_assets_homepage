@@ -1,0 +1,111 @@
+.blockTwoCompanyName{
+    position:absolute;
+    left:643px;
+    top:184px;
+    width: 634px;
+    height: 78px;
+    opacity: 1;
+    font-size: 60px;
+    /*font-family: YouSheBiaoTiHei, YouSheBiaoTiHei-Regular;*/
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    line-height: 78px;
+    letter-spacing: 3px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.headerMenu{
+    position:absolute;
+    /*margin:866px 0px 658px 110px;*/
+    left: 866px;
+    /*top:0px;*/
+    width: 658px;
+    height:110px;
+    opacity: 1;
+    background: #ffffff;
+}
+.headerMenuBar{
+    margin: 0 auto;
+    top: 0;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    overflow-y: auto;
+}
+.headerMenuBar li{
+    padding:0 5px;
+    display:inline-block;
+    cursor: pointer;
+    line-height: 50px;
+    /*color:#444444;*/
+}
+.headerMenuBar li:hover
+{
+    color: white;
+    background-color:#ED6E03;
+}
+.headerMenuBar li.menu-value
+{
+    color: white;
+    background-color: #ED6E03;
+    font-weight: bold;
+    height: 110px;
+}
+.headerMenuBar a:hover{
+    color:white;
+}
+.headerMenuBar a {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    margin: auto;
+    /*font-family: "微软雅黑", "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial, "宋体";*/
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #444444;
+}
+
+.headerBackGround{
+    position: fixed;
+    width: 1920px;
+    height: 110px;
+    z-index: 99;
+    opacity: 1;
+    background: #ffffff;
+}
+.backGroundTitle{
+    position: absolute;
+    /*margin: 360px 0px 244px 50px;*/
+    font-weight:bolder;
+    left: 360px;
+    /*top: 0px;*/
+    width: 244px;
+    height: 50px;
+    opacity: 1;
+    font-size: 30px;
+    /*font-family: YouSheBiaoTiHei;*/
+    text-align: center;
+    color: #ed6e03;
+    line-height: 39px;
+}
+.backGroundCompanyName{
+    position: absolute;
+    left: 361px;
+    top: 50px;
+    width: 245px;
+    height: 17px;
+    opacity: 1;
+    font-size: 12px;
+    /*font-family: PingFangSC, PingFangSC-Regular;*/
+    font-weight: 400;
+    text-align: center;
+    color: #ed6e03;
+    line-height: 17px;
+    letter-spacing: 2px;
+}
